@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 import './Home.css'
 
 const Home = () => {
@@ -6,12 +7,7 @@ const Home = () => {
     <div>
        <header>
         <h1>Welcome to My Homepage</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
+       <Navbar/>
     </header>
     <div className="container">
         <div className="content">

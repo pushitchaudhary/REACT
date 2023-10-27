@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 import './About.css'
 
 
@@ -7,12 +8,7 @@ function About() {
     <div>
        <header>
         <h1>About Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
+       <Navbar/>
     </header>
     <div className="container">
         <div className="content">

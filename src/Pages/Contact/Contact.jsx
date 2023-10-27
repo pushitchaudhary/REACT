@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 import './Contact.css'
 
 function Contact() {
@@ -6,12 +7,7 @@ function Contact() {
     <div>
         <header>
         <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
+        <Navbar/>
     </header>
     <div className="container">
         <div className="content">
