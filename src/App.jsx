@@ -1,19 +1,22 @@
-import {BrowserRouter, Routes, Route, Router} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import About from './Pages/About/About'
+import Contact from './Pages/Contact/Contact'
+import Home from './Pages/Home/Home'
 
 function App() {
 
   return (
-    <BrowserRouter>
+  <BrowserRouter>
+  
+  <Routes>
 
-    <Routes>
+    <Route path='/' element={ <Home/> }/>
+    <Route path='/contact'  element={ <Contact/>}/>
+    <Route path='/about' element={ <About/> }  />
 
-      <Route path='/' element={'This is home page'} />
-      <Route path='/about' element={'this is about page'}/>
-      <Route path='/contact' element={'this is contact page'}  />
+  </Routes>
 
-    </Routes>
-    
-    </BrowserRouter>
+  </BrowserRouter>
   )
 }
 
