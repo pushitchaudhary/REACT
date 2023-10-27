@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterBar from '../Components/FooterBar'
 import Navbar from '../Components/Navbar'
 import './Contact.css'
 
@@ -20,9 +21,7 @@ function Contact() {
             </ul>
         </div>
     </div>
-    <footer>
-        &copy; 2023 My Homepage
-    </footer>
+    <FooterBar/>
     </div>
   )
 }

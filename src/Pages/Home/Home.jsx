@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterBar from '../Components/FooterBar'
 import Navbar from '../Components/Navbar'
 import './Home.css'
 
@@ -15,9 +16,7 @@ const Home = () => {
             <p>Welcome to my personal homepage. I'm passionate about web development and love creating beautiful websites.</p>
         </div>
     </div>
-    <footer>
-        &copy; 2023 My Homepage
-    </footer>
+    <FooterBar/>
     </div>
   )
 }

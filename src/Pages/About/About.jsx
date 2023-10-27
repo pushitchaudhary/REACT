@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterBar from '../Components/FooterBar'
 import Navbar from '../Components/Navbar'
 import './About.css'
 
@@ -16,9 +17,7 @@ function About() {
             <p>We are a passionate team of web developers dedicated to creating amazing online experiences. Our mission is to make the web a better place through beautiful and functional websites.</p>
         </div>
     </div>
-    <footer>
-        &copy; 2023 My Homepage
-    </footer>
+        <FooterBar/>
     </div>
   )
 }
