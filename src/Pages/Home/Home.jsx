@@ -1,10 +1,27 @@
 import React from 'react'
+import './Home.css'
 
 const Home = () => {
   return (
     <div>
-      <h1>This is home page from components</h1>
-      <p>Add 2 + 2 = {2+2} </p>
+       <header>
+        <h1>Welcome to My Homepage</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div className="container">
+        <div className="content">
+            <h2>About Me</h2>
+            <p>Welcome to my personal homepage. I'm passionate about web development and love creating beautiful websites.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 My Homepage
+    </footer>
     </div>
   )
 }
