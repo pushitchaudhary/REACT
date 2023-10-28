@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../ Button/Button'
 import FooterBar from '../Components/FooterBar'
 import Navbar from '../Components/Navbar'
 import './Contact.css'
@@ -19,6 +20,7 @@ function Contact() {
                 <li><strong>Phone:</strong> (123) 456-7890</li>
                 <li><strong>Address:</strong> 1234 Main St, City, Country</li>
             </ul>
+            <Button title='contact' />
         </div>
     </div>
     <FooterBar/>
